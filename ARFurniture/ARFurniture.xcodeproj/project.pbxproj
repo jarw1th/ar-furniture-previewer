@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		21984C7B2CE271A10068AD42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21984C752CE271A10068AD42 /* Preview Assets.xcassets */; };
+		21984C7C2CE271A10068AD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21984C782CE271A10068AD42 /* Assets.xcassets */; };
+		21984C7D2CE271A10068AD42 /* ARFurnitureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C772CE271A10068AD42 /* ARFurnitureApp.swift */; };
+		21984C7E2CE271A10068AD42 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C792CE271A10068AD42 /* SelectionView.swift */; };
+		21984C832CE272EF0068AD42 /* ARContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C822CE272EB0068AD42 /* ARContainer.swift */; };
+		21984C862CE2733D0068AD42 /* Shelf.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C852CE2733D0068AD42 /* Shelf.usdz */; };
+		21984C882CE2743C0068AD42 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C872CE274330068AD42 /* ARView.swift */; };
+		21984C8B2CE274880068AD42 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C8A2CE2747E0068AD42 /* Furniture.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		21984C642CE26FD00068AD42 /* ARFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21984C752CE271A10068AD42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21984C772CE271A10068AD42 /* ARFurnitureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFurnitureApp.swift; sourceTree = "<group>"; };
+		21984C782CE271A10068AD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21984C792CE271A10068AD42 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		21984C822CE272EB0068AD42 /* ARContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContainer.swift; sourceTree = "<group>"; };
+		21984C852CE2733D0068AD42 /* Shelf.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shelf.usdz; sourceTree = "<group>"; };
+		21984C872CE274330068AD42 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		21984C8A2CE2747E0068AD42 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		21984C662CE26FD00068AD42 /* ARFurniture */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ARFurniture;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		21984C612CE26FD00068AD42 /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		21984C5B2CE26FD00068AD42 = {
 			isa = PBXGroup;
 			children = (
-				21984C662CE26FD00068AD42 /* ARFurniture */,
+				21984C7A2CE271A10068AD42 /* ARFurniture */,
 				21984C652CE26FD00068AD42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,69 @@
 				21984C642CE26FD00068AD42 /* ARFurniture.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		21984C762CE271A10068AD42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21984C752CE271A10068AD42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21984C7A2CE271A10068AD42 /* ARFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				21984C892CE274760068AD42 /* Extensions */,
+				21984C812CE272040068AD42 /* Assets */,
+				21984C802CE272000068AD42 /* Views */,
+				21984C7F2CE271F40068AD42 /* Application */,
+				21984C762CE271A10068AD42 /* Preview Content */,
+			);
+			path = ARFurniture;
+			sourceTree = "<group>";
+		};
+		21984C7F2CE271F40068AD42 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				21984C772CE271A10068AD42 /* ARFurnitureApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		21984C802CE272000068AD42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21984C822CE272EB0068AD42 /* ARContainer.swift */,
+				21984C792CE271A10068AD42 /* SelectionView.swift */,
+				21984C872CE274330068AD42 /* ARView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21984C812CE272040068AD42 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				21984C842CE273210068AD42 /* ARModels */,
+				21984C782CE271A10068AD42 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		21984C842CE273210068AD42 /* ARModels */ = {
+			isa = PBXGroup;
+			children = (
+				21984C852CE2733D0068AD42 /* Shelf.usdz */,
+			);
+			path = ARModels;
+			sourceTree = "<group>";
+		};
+		21984C892CE274760068AD42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				21984C8A2CE2747E0068AD42 /* Furniture.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +133,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				21984C662CE26FD00068AD42 /* ARFurniture */,
 			);
 			name = ARFurniture;
 			packageProductDependencies = (
@@ -109,6 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21984C7B2CE271A10068AD42 /* Preview Assets.xcassets in Resources */,
+				21984C862CE2733D0068AD42 /* Shelf.usdz in Resources */,
+				21984C7C2CE271A10068AD42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21984C832CE272EF0068AD42 /* ARContainer.swift in Sources */,
+				21984C882CE2743C0068AD42 /* ARView.swift in Sources */,
+				21984C8B2CE274880068AD42 /* Furniture.swift in Sources */,
+				21984C7D2CE271A10068AD42 /* ARFurnitureApp.swift in Sources */,
+				21984C7E2CE271A10068AD42 /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +334,7 @@
 				DEVELOPMENT_TEAM = QN6RC23FCQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for Augmented Reality";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +364,7 @@
 				DEVELOPMENT_TEAM = QN6RC23FCQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for Augmented Reality";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

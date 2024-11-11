@@ -15,6 +15,10 @@
 		21984C862CE2733D0068AD42 /* Shelf.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C852CE2733D0068AD42 /* Shelf.usdz */; };
 		21984C882CE2743C0068AD42 /* ARCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C872CE274330068AD42 /* ARCameraView.swift */; };
 		21984C8B2CE274880068AD42 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C8A2CE2747E0068AD42 /* Furniture.swift */; };
+		21984C8F2CE285FE0068AD42 /* Chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C8E2CE285FE0068AD42 /* Chair.usdz */; };
+		21984C912CE286730068AD42 /* Couch.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C902CE286730068AD42 /* Couch.usdz */; };
+		21984C932CE286BB0068AD42 /* Bed.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C922CE286BB0068AD42 /* Bed.usdz */; };
+		21984C952CE287450068AD42 /* Table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C942CE287450068AD42 /* Table.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		21984C852CE2733D0068AD42 /* Shelf.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shelf.usdz; sourceTree = "<group>"; };
 		21984C872CE274330068AD42 /* ARCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraView.swift; sourceTree = "<group>"; };
 		21984C8A2CE2747E0068AD42 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		21984C8E2CE285FE0068AD42 /* Chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chair.usdz; sourceTree = "<group>"; };
+		21984C902CE286730068AD42 /* Couch.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Couch.usdz; sourceTree = "<group>"; };
+		21984C922CE286BB0068AD42 /* Bed.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bed.usdz; sourceTree = "<group>"; };
+		21984C942CE287450068AD42 /* Table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Table.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 		21984C842CE273210068AD42 /* ARModels */ = {
 			isa = PBXGroup;
 			children = (
+				21984C942CE287450068AD42 /* Table.usdz */,
+				21984C922CE286BB0068AD42 /* Bed.usdz */,
+				21984C902CE286730068AD42 /* Couch.usdz */,
+				21984C8E2CE285FE0068AD42 /* Chair.usdz */,
 				21984C852CE2733D0068AD42 /* Shelf.usdz */,
 			);
 			path = ARModels;
@@ -181,8 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				21984C7B2CE271A10068AD42 /* Preview Assets.xcassets in Resources */,
+				21984C8F2CE285FE0068AD42 /* Chair.usdz in Resources */,
+				21984C912CE286730068AD42 /* Couch.usdz in Resources */,
+				21984C932CE286BB0068AD42 /* Bed.usdz in Resources */,
 				21984C862CE2733D0068AD42 /* Shelf.usdz in Resources */,
 				21984C7C2CE271A10068AD42 /* Assets.xcassets in Resources */,
+				21984C952CE287450068AD42 /* Table.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

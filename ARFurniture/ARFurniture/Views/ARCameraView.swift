@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ARView: View {
+struct ARCameraView: View {
     
-
+    let furniture: FurnitureType
     
     var body: some View {
         VStack {
-            ARViewContainer()
+            ARViewContainer(fileName: furniture.fileName())
         }
         .edgesIgnoringSafeArea(.all)
     }

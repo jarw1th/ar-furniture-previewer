@@ -13,7 +13,7 @@
 		21984C7E2CE271A10068AD42 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C792CE271A10068AD42 /* SelectionView.swift */; };
 		21984C832CE272EF0068AD42 /* ARContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C822CE272EB0068AD42 /* ARContainer.swift */; };
 		21984C862CE2733D0068AD42 /* Shelf.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 21984C852CE2733D0068AD42 /* Shelf.usdz */; };
-		21984C882CE2743C0068AD42 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C872CE274330068AD42 /* ARView.swift */; };
+		21984C882CE2743C0068AD42 /* ARCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C872CE274330068AD42 /* ARCameraView.swift */; };
 		21984C8B2CE274880068AD42 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21984C8A2CE2747E0068AD42 /* Furniture.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 		21984C792CE271A10068AD42 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		21984C822CE272EB0068AD42 /* ARContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContainer.swift; sourceTree = "<group>"; };
 		21984C852CE2733D0068AD42 /* Shelf.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shelf.usdz; sourceTree = "<group>"; };
-		21984C872CE274330068AD42 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		21984C872CE274330068AD42 /* ARCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraView.swift; sourceTree = "<group>"; };
 		21984C8A2CE2747E0068AD42 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +89,7 @@
 			children = (
 				21984C822CE272EB0068AD42 /* ARContainer.swift */,
 				21984C792CE271A10068AD42 /* SelectionView.swift */,
-				21984C872CE274330068AD42 /* ARView.swift */,
+				21984C872CE274330068AD42 /* ARCameraView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21984C832CE272EF0068AD42 /* ARContainer.swift in Sources */,
-				21984C882CE2743C0068AD42 /* ARView.swift in Sources */,
+				21984C882CE2743C0068AD42 /* ARCameraView.swift in Sources */,
 				21984C8B2CE274880068AD42 /* Furniture.swift in Sources */,
 				21984C7D2CE271A10068AD42 /* ARFurnitureApp.swift in Sources */,
 				21984C7E2CE271A10068AD42 /* SelectionView.swift in Sources */,
